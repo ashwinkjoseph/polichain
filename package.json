@@ -1,0 +1,26 @@
+{
+  "name": "newtestcontractproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "toExec.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashwinfountane/polichain.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashwinfountane/polichain/issues"
+  },
+  "homepage": "https://github.com/ashwinfountane/polichain#readme",
+  "dependencies": {
+    "truffle-contract": "^4.0.30",
+    "web3": "^1.2.1"
+  }
+}

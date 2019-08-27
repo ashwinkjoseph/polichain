@@ -18,6 +18,7 @@ contract FactCreator{
         string memory resultString = "";
         for(uint i = 0; i < factStrings.length; i = i + 1){
             resultString = string(abi.encodePacked(resultString, factStrings[i]));
+            resultString = string(abi.encodePacked(resultString, ";"));
         }
         return resultString;
     }
@@ -61,7 +62,9 @@ contract Fact {
     function vote() public {
         require(creator.checkRightToVote(msg.sender), "You are not Authorised to vote");
         if(voters[msg.sender].voted){
-            voteCount = voteCount - 1;
+            if(voters[msg.sender].vote == 1){
+                voteCount = voteCount - 1;
+            }
         }
         voters[msg.sender].voted = true;
         voters[msg.sender].voterAddr = msg.sender;
@@ -73,7 +76,9 @@ contract Fact {
     function deVote() public {
         require(creator.checkRightToVote(msg.sender), "You are not Authorised to vote");
         if(voters[msg.sender].voted){
-            voteCount = voteCount + 1;
+            if(voters[msg.sender].vote == 2){
+                voteCount = voteCount + 1;
+            }
         }
         voters[msg.sender].voted = true;
         voters[msg.sender].voterAddr = msg.sender;
