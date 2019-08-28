@@ -1,0 +1,45 @@
+=============== Aug 26, 2019 (IST) ===============
+03:51:52.184639 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+03:51:52.189079 db@open opening
+03:51:52.189642 version@stat F·[] S·0B[] Sc·[]
+03:51:52.189972 db@janitor F·2 G·0
+03:51:52.190061 db@open done T·941.446µs
+=============== Aug 26, 2019 (IST) ===============
+03:56:29.825273 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+03:56:29.825549 version@stat F·[] S·0B[] Sc·[]
+03:56:29.825570 db@open opening
+03:56:29.825671 journal@recovery F·1
+03:56:29.828352 journal@recovery recovering @1
+03:56:29.830091 memdb@flush created L0@2 N·11 S·807B " F\xfd..)\x8d\xe0,v2":"sec..\x86C\xea,v1"
+03:56:29.832981 version@stat F·[1] S·807B[807B] Sc·[0.25]
+03:56:29.834465 db@janitor F·3 G·0
+03:56:29.834495 db@open done T·8.91362ms
+=============== Aug 27, 2019 (IST) ===============
+02:04:58.607959 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+02:04:58.624825 version@stat F·[1] S·807B[807B] Sc·[0.25]
+02:04:58.624852 db@open opening
+02:04:58.624928 journal@recovery F·1
+02:04:58.627532 journal@recovery recovering @3
+02:04:58.628703 memdb@flush created L0@5 N·3 S·266B "Dat..ion,v14":"quo..ive,v13"
+02:04:58.631000 version@stat F·[2] S·1KiB[1KiB] Sc·[0.50]
+02:04:58.633347 db@janitor F·4 G·0
+02:04:58.633390 db@open done T·8.509946ms
+02:08:42.897167 db@close closing
+02:08:42.897245 db@close done T·81.806µs
+=============== Aug 27, 2019 (IST) ===============
+02:09:32.592547 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+02:09:32.592732 version@stat F·[2] S·1KiB[1KiB] Sc·[0.50]
+02:09:32.592751 db@open opening
+02:09:32.592814 journal@recovery F·1
+02:09:32.595262 journal@recovery recovering @6
+02:09:32.596879 memdb@flush created L0@8 N·2 S·238B "Dat..ion,v17":"Las..der,v18"
+02:09:32.599273 version@stat F·[3] S·1KiB[1KiB] Sc·[0.75]
+02:09:32.600596 db@janitor F·5 G·0
+02:09:32.600624 db@open done T·7.862743ms
+07:37:48.867198 table@compaction L0·3 -> L1·0 S·1KiB Q·511
+07:37:48.884167 table@build created L1@11 N·13 S·853B " F\xfd..)\x8d\xe0,v2":"sec..\x86C\xea,v1"
+07:37:48.884206 version@stat F·[0 1] S·853B[0B 853B] Sc·[0.00 0.00]
+07:37:48.895119 table@compaction committed F-2 S-458B Ke·0 D·3 T·11.843027ms
+07:37:48.895955 table@remove removed @8
+07:37:48.896816 table@remove removed @5
+07:37:48.897766 table@remove removed @2
