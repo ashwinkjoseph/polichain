@@ -6184,3 +6184,1240 @@ DEBUG[08-27|09:38:28.147] Recalculated downloader QoS values       rtt=20s confi
 DEBUG[08-27|09:38:48.149] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
 DEBUG[08-27|09:39:08.155] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
 DEBUG[08-27|09:39:28.158] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+appending output to nohup.out
+DEBUG[08-28|19:03:03.211] Sanitizing Go's GC trigger               percent=100
+INFO [08-28|19:03:03.212] Maximum peer count                       ETH=25 LES=0 total=25
+TRACE[08-28|19:03:03.212] Started watching keystore folder         path=/Users/ashwin/Documents/Projects/polichain/network/5node/keystore
+DEBUG[08-28|19:03:03.212] FS scan times                            list=551.506µs set=7.558µs diff=1.465µs
+TRACE[08-28|19:03:03.213] Handled keystore changes                 time=458.851µs
+INFO [08-28|19:03:03.221] set gcmode=archive for Raft 
+INFO [08-28|19:03:03.222] Starting peer-to-peer node               instance=Geth/v1.8.18-stable-664c2ab2(quorum-v2.2.5)/darwin-amd64/go1.11
+INFO [08-28|19:03:03.222] Allocated cache and file handles         database=/Users/ashwin/Documents/Projects/polichain/network/5node/geth/chaindata cache=768 handles=4611686018427387903
+INFO [08-28|19:03:03.252] Initialised chain configuration          config="{ChainID: 10 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: 0 EIP155: 0 EIP158: 0 Byzantium: 0 IsQuorum: true Constantinople: <nil> Engine: unknown}"
+WARN [08-28|19:03:03.252] Ethash used in full fake mode 
+INFO [08-28|19:03:03.252] Initialising Ethereum protocol           versions="[63 62]" network=31338
+INFO [08-28|19:03:03.253] Loaded most recent local header          number=200 hash=f75af4…80ef1d td=26214400 age=0
+INFO [08-28|19:03:03.253] Loaded most recent local full block      number=200 hash=f75af4…80ef1d td=26214400 age=0
+INFO [08-28|19:03:03.253] Loaded most recent local fast block      number=200 hash=f75af4…80ef1d td=26214400 age=0
+DEBUG[08-28|19:03:03.253] Reinjecting stale transactions           count=0
+INFO [08-28|19:03:03.253] Loaded local transaction journal         transactions=0 dropped=0
+INFO [08-28|19:03:03.253] Regenerated local transaction journal    transactions=0 accounts=0
+WARN [08-28|19:03:03.253] Blockchain not empty, fast sync disabled 
+DEBUG[08-28|19:03:03.254] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+INFO [08-28|19:03:03.263] starting raft protocol handler 
+DEBUG[08-28|19:03:03.263] TCP listener up                          addr=[::]:31004
+INFO [08-28|19:03:03.264] loaded the latest applied index          lastAppliedIndex=207
+INFO [08-28|19:03:03.264] loading snapshot 
+INFO [08-28|19:03:03.264] applying snapshot to raft storage 
+INFO [08-28|19:03:03.264] updating cluster membership per raft snapshot 
+INFO [08-28|19:03:03.264] adding new raft peer                     raft id=1
+INFO [08-28|19:03:03.265] New local node record                    seq=3 id=9d6a49b5bd26d63a ip=127.0.0.1 udp=0 tcp=31004
+INFO [08-28|19:03:03.265] Started P2P networking                   self="enode://f4415aff9d2412e631c31c49c0914a471b14e9929eb45bb65ddcff84723cf761830bd441c76c25be3af023bf840d21f49e758e0bf4ed083d4f9697be1d0e46b5@127.0.0.1:31004?discport=0"
+WARN [08-28|19:03:03.265] Removing static dial candidate           id=0x44d5ff0        addr=127.0.0.1:31004 err="is self"
+TRACE[08-28|19:03:03.265] New dial task                            task="staticdial 2138665dcb55e9aa 127.0.0.1:31000"
+TRACE[08-28|19:03:03.265] New dial task                            task="staticdial 46760405a6473d93 127.0.0.1:31001"
+TRACE[08-28|19:03:03.265] New dial task                            task="staticdial 29c99789ac50840d 127.0.0.1:31002"
+TRACE[08-28|19:03:03.265] New dial task                            task="staticdial ec45c20e2b731310 127.0.0.1:31003"
+TRACE[08-28|19:03:03.265] Adding static node                       node="enode://5f8412d6d5a089b8de14569f45977dc01cefe62fbe5ba6252b31721f4c6b0a94409b21b27934a876fefb9ac3ca8cc32267ec403c71517a237bd8a649b25216ce@127.0.0.1:31000?discport=0&raftport=60000"
+2019-08-28 19:03:03.265576 I | rafthttp: starting peer 1...
+2019-08-28 19:03:03.265628 I | rafthttp: started HTTP pipelining with peer 1
+2019-08-28 19:03:03.266333 I | rafthttp: started peer 1
+2019-08-28 19:03:03.266364 I | rafthttp: added peer 1
+INFO [08-28|19:03:03.266] adding new raft peer                     raft id=2
+2019-08-28 19:03:03.266514 I | rafthttp: starting peer 2...
+2019-08-28 19:03:03.266556 I | rafthttp: started HTTP pipelining with peer 2
+2019-08-28 19:03:03.267178 I | rafthttp: started peer 2
+2019-08-28 19:03:03.267198 I | rafthttp: added peer 2
+INFO [08-28|19:03:03.267] adding new raft peer                     raft id=3
+2019-08-28 19:03:03.267327 I | rafthttp: started streaming with peer 1 (writer)
+2019-08-28 19:03:03.267348 I | rafthttp: started streaming with peer 1 (writer)
+2019-08-28 19:03:03.267392 I | rafthttp: started streaming with peer 1 (stream MsgApp v2 reader)
+2019-08-28 19:03:03.267495 I | rafthttp: started streaming with peer 1 (stream Message reader)
+2019-08-28 19:03:03.267573 I | rafthttp: started streaming with peer 2 (writer)
+2019-08-28 19:03:03.267611 I | rafthttp: started streaming with peer 2 (writer)
+2019-08-28 19:03:03.267635 I | rafthttp: started streaming with peer 2 (stream MsgApp v2 reader)
+TRACE[08-28|19:03:03.267] Adding static node                       node="enode://3f689cdce9a7245f6b94c01070a31c658395890658bffb3ae7ea3a4b399aa9e03cc46c5543424a40302b7efccc666750d4d9ac07887452f45aec4cd2f5a71c90@127.0.0.1:31001?discport=0&raftport=60001"
+TRACE[08-28|19:03:03.267] Adding static node                       node="enode://0317b83566b3aa583ef1f21b12ea9973f356e777167e43e22f4c0227c7c4d4e2cbf4b8f39bde0411e2ed5359571d7bb971146a69a9ce1a29d1068e15a9b29c9a@127.0.0.1:31002?discport=0&raftport=60002"
+2019-08-28 19:03:03.267819 I | rafthttp: started streaming with peer 2 (stream Message reader)
+2019-08-28 19:03:03.267833 I | rafthttp: starting peer 3...
+2019-08-28 19:03:03.267854 I | rafthttp: started HTTP pipelining with peer 3
+2019-08-28 19:03:03.268408 I | rafthttp: started streaming with peer 3 (writer)
+2019-08-28 19:03:03.268436 I | rafthttp: started streaming with peer 3 (writer)
+2019-08-28 19:03:03.268888 I | rafthttp: peer 1 became active
+2019-08-28 19:03:03.268905 I | rafthttp: established a TCP streaming connection with peer 1 (stream MsgApp v2 reader)
+2019-08-28 19:03:03.268971 I | rafthttp: established a TCP streaming connection with peer 1 (stream Message reader)
+TRACE[08-28|19:03:03.269] Quorum permissioning                     id=46760405a6473d93 addr=127.0.0.1:31001 conn=staticdial EnableNodePermission=false DataDir=/Users/ashwin/Documents/Projects/polichain/network/5node Current Node ID=9d6a49b5bd26d63aa87af924e2e2d3c9bf7797314b068c8781072117e029143c Node Name=Geth/v1.8.18-stable-664c2ab2(quorum-v2.2.5)/darwin-amd64/go1.11 Dialed Dest="enode://3f689cdce9a7245f6b94c01070a31c658395890658bffb3ae7ea3a4b399aa9e03cc46c5543424a40302b7efccc666750d4d9ac07887452f45aec4cd2f5a71c90@127.0.0.1:31001?discport=0&raftport=60001" Connection ID=46760405a6473d93 Connection String=46760405a6473d93c3ed5cc1aa2af0ea2e6e8c0f6587d69ece0dc8c624fdc6a7
+TRACE[08-28|19:03:03.270] Node Permissioning is Disabled.          id=46760405a6473d93 addr=127.0.0.1:31001 conn=staticdial
+DEBUG[08-28|19:03:03.270] Adding p2p peer                          name=Geth/v1.8.18-stable-... addr=127.0.0.1:31001 peers=1
+TRACE[08-28|19:03:03.270] connection set up                        id=46760405a6473d93 addr=127.0.0.1:31001 conn=staticdial inbound=false
+TRACE[08-28|19:03:03.270] Dial task done                           task="staticdial 46760405a6473d93 127.0.0.1:31001"
+TRACE[08-28|19:03:03.270] Starting protocol eth/63                 id=46760405a6473d93 conn=staticdial
+DEBUG[08-28|19:03:03.270] Ethereum peer connected                  id=46760405a6473d93 conn=staticdial name=Geth/v1.8.18-stable-664c2ab2(quorum-v2.2.5)/darwin-amd64/go1.11
+2019-08-28 19:03:03.270903 I | rafthttp: started peer 3
+2019-08-28 19:03:03.270924 I | rafthttp: added peer 3
+INFO [08-28|19:03:03.270] adding new raft peer                     raft id=4
+2019-08-28 19:03:03.271063 I | rafthttp: starting peer 4...
+2019-08-28 19:03:03.271083 I | rafthttp: started HTTP pipelining with peer 4
+TRACE[08-28|19:03:03.271] Quorum permissioning                     id=29c99789ac50840d addr=127.0.0.1:31002 conn=staticdial EnableNodePermission=false DataDir=/Users/ashwin/Documents/Projects/polichain/network/5node Current Node ID=9d6a49b5bd26d63aa87af924e2e2d3c9bf7797314b068c8781072117e029143c Node Name=Geth/v1.8.18-stable-664c2ab2(quorum-v2.2.5)/darwin-amd64/go1.11 Dialed Dest="enode://0317b83566b3aa583ef1f21b12ea9973f356e777167e43e22f4c0227c7c4d4e2cbf4b8f39bde0411e2ed5359571d7bb971146a69a9ce1a29d1068e15a9b29c9a@127.0.0.1:31002?discport=0&raftport=60002" Connection ID=29c99789ac50840d Connection String=29c99789ac50840d2fc553c80c1aa8c2d107f3ac75f4d6d8c63c8ebea11ab83a
+TRACE[08-28|19:03:03.271] Node Permissioning is Disabled.          id=29c99789ac50840d addr=127.0.0.1:31002 conn=staticdial
+2019-08-28 19:03:03.271471 I | rafthttp: peer 2 became active
+2019-08-28 19:03:03.271485 I | rafthttp: established a TCP streaming connection with peer 2 (stream MsgApp v2 reader)
+2019-08-28 19:03:03.271635 I | rafthttp: started streaming with peer 3 (stream MsgApp v2 reader)
+TRACE[08-28|19:03:03.271] Adding static node                       node="enode://bcb1a290d8a6597e428aa4014f971e340f99423fe36c34a71f739d6009e7fd9ab9342ce8b58dc8f2b886c54c939cbb59177151fb0de33016e571b6ab5f717b86@127.0.0.1:31003?discport=0&raftport=60003"
+2019-08-28 19:03:03.271883 I | rafthttp: started streaming with peer 3 (stream Message reader)
+2019-08-28 19:03:03.272095 I | rafthttp: established a TCP streaming connection with peer 2 (stream Message reader)
+DEBUG[08-28|19:03:03.272] Adding p2p peer                          name=Geth/v1.8.18-stable-...                                         addr=127.0.0.1:31002 peers=2
+TRACE[08-28|19:03:03.272] Starting protocol eth/63                 id=29c99789ac50840d conn=staticdial
+TRACE[08-28|19:03:03.273] Registering sync peer                    peer=46760405a6473d93
+2019-08-28 19:03:03.273671 I | rafthttp: peer 3 became active
+2019-08-28 19:03:03.273691 I | rafthttp: established a TCP streaming connection with peer 3 (stream MsgApp v2 reader)
+TRACE[08-28|19:03:03.274] Quorum permissioning                     id=2138665dcb55e9aa addr=127.0.0.1:31000 conn=staticdial EnableNodePermission=false DataDir=/Users/ashwin/Documents/Projects/polichain/network/5node Current Node ID=9d6a49b5bd26d63aa87af924e2e2d3c9bf7797314b068c8781072117e029143c Node Name=Geth/v1.8.18-stable-664c2ab2(quorum-v2.2.5)/darwin-amd64/go1.11 Dialed Dest="enode://5f8412d6d5a089b8de14569f45977dc01cefe62fbe5ba6252b31721f4c6b0a94409b21b27934a876fefb9ac3ca8cc32267ec403c71517a237bd8a649b25216ce@127.0.0.1:31000?discport=0&raftport=60000" Connection ID=2138665dcb55e9aa Connection String=2138665dcb55e9aa48314ef50b4f348bfc051d14ca3e80096f1b2e1bfa61e411
+TRACE[08-28|19:03:03.274] connection set up                        id=29c99789ac50840d addr=127.0.0.1:31002 conn=staticdial inbound=false
+TRACE[08-28|19:03:03.274] Node Permissioning is Disabled.          id=2138665dcb55e9aa addr=127.0.0.1:31000 conn=staticdial
+DEBUG[08-28|19:03:03.274] Ethereum peer connected                  id=29c99789ac50840d conn=staticdial name=Geth/v1.8.18-stable-664c2ab2(quorum-v2.2.5)/darwin-amd64/go1.11
+TRACE[08-28|19:03:03.274] Dial task done                           task="staticdial 29c99789ac50840d 127.0.0.1:31002"
+2019-08-28 19:03:03.274633 I | rafthttp: established a TCP streaming connection with peer 3 (stream Message reader)
+DEBUG[08-28|19:03:03.274] Adding p2p peer                          name=Geth/v1.8.18-stable-...                                         addr=127.0.0.1:31000 peers=3
+TRACE[08-28|19:03:03.274] Starting protocol eth/63                 id=2138665dcb55e9aa conn=staticdial
+DEBUG[08-28|19:03:03.274] Ethereum peer connected                  id=2138665dcb55e9aa conn=staticdial name=Geth/v1.8.18-stable-664c2ab2(quorum-v2.2.5)/darwin-amd64/go1.11
+TRACE[08-28|19:03:03.274] Registering sync peer                    peer=29c99789ac50840d
+DEBUG[08-28|19:03:03.274] Relaxed downloader QoS values            rtt=20s confidence=0.500 ttl=1m0s
+TRACE[08-28|19:03:03.274] connection set up                        id=2138665dcb55e9aa addr=127.0.0.1:31000 conn=staticdial inbound=false
+TRACE[08-28|19:03:03.274] Dial task done                           task="staticdial 2138665dcb55e9aa 127.0.0.1:31000"
+2019-08-28 19:03:03.274990 I | rafthttp: started streaming with peer 4 (writer)
+TRACE[08-28|19:03:03.274] Quorum permissioning                     id=ec45c20e2b731310 addr=127.0.0.1:31003 conn=staticdial EnableNodePermission=false DataDir=/Users/ashwin/Documents/Projects/polichain/network/5node Current Node ID=9d6a49b5bd26d63aa87af924e2e2d3c9bf7797314b068c8781072117e029143c Node Name=Geth/v1.8.18-stable-664c2ab2(quorum-v2.2.5)/darwin-amd64/go1.11 Dialed Dest="enode://bcb1a290d8a6597e428aa4014f971e340f99423fe36c34a71f739d6009e7fd9ab9342ce8b58dc8f2b886c54c939cbb59177151fb0de33016e571b6ab5f717b86@127.0.0.1:31003?discport=0&raftport=60003" Connection ID=ec45c20e2b731310 Connection String=ec45c20e2b731310b24eb6e8a9ecb1bfbbdb56923b48b7a2637b726d5efc3faf
+TRACE[08-28|19:03:03.275] Node Permissioning is Disabled.          id=ec45c20e2b731310 addr=127.0.0.1:31003 conn=staticdial
+2019-08-28 19:03:03.275172 I | rafthttp: started streaming with peer 4 (writer)
+DEBUG[08-28|19:03:03.275] Adding p2p peer                          name=Geth/v1.8.18-stable-...                                         addr=127.0.0.1:31003 peers=4
+TRACE[08-28|19:03:03.275] connection set up                        id=ec45c20e2b731310 addr=127.0.0.1:31003 conn=staticdial inbound=false
+TRACE[08-28|19:03:03.275] Dial task done                           task="staticdial ec45c20e2b731310 127.0.0.1:31003"
+TRACE[08-28|19:03:03.275] Registering sync peer                    peer=2138665dcb55e9aa
+TRACE[08-28|19:03:03.275] Starting protocol eth/63                 id=ec45c20e2b731310 conn=staticdial
+DEBUG[08-28|19:03:03.275] Ethereum peer connected                  id=ec45c20e2b731310 conn=staticdial name=Geth/v1.8.18-stable-664c2ab2(quorum-v2.2.5)/darwin-amd64/go1.11
+DEBUG[08-28|19:03:03.275] Relaxed downloader QoS values            rtt=20s confidence=0.333 ttl=1m0s
+TRACE[08-28|19:03:03.275] New dial task                            task="wait for dial hist expire (29.994964583s)"
+2019-08-28 19:03:03.275717 I | rafthttp: started peer 4
+TRACE[08-28|19:03:03.275] Registering sync peer                    peer=ec45c20e2b731310
+2019-08-28 19:03:03.275738 I | rafthttp: added peer 4
+DEBUG[08-28|19:03:03.275] Relaxed downloader QoS values            rtt=20s confidence=0.250 ttl=1m0s
+2019-08-28 19:03:03.275796 I | rafthttp: started streaming with peer 4 (stream MsgApp v2 reader)
+INFO [08-28|19:03:03.275] updated cluster membership 
+2019-08-28 19:03:03.275833 I | rafthttp: started streaming with peer 4 (stream Message reader)
+INFO [08-28|19:03:03.275] blockchain is caught up; no need to synchronize 
+INFO [08-28|19:03:03.275] replaying WAL 
+INFO [08-28|19:03:03.275] loading WAL                              term=0 index=0
+2019-08-28 19:03:03.276298 I | rafthttp: peer 4 became active
+2019-08-28 19:03:03.276316 I | rafthttp: established a TCP streaming connection with peer 4 (stream Message reader)
+2019-08-28 19:03:03.276339 I | rafthttp: established a TCP streaming connection with peer 4 (stream MsgApp v2 reader)
+INFO [08-28|19:03:03.280] rolling back applied index to last-durably-committed last applied index=207 last persisted index=206
+INFO [08-28|19:03:03.280] startRaft                                raft ID=5
+INFO [08-28|19:03:03.280] remounting an existing raft log; connecting to peers. 
+raft2019/08/28 19:03:03 INFO: 5 became follower at term 64
+raft2019/08/28 19:03:03 INFO: newRaft 5 [peers: [1,2,3,4,5], term: 64, commit: 206, applied: 206, lastindex: 207, lastterm: 64]
+DEBUG[08-28|19:03:03.280] InProc registered                        service=&{node:0xc0004a3b80} namespace=admin
+DEBUG[08-28|19:03:03.280] InProc registered                        service=&{node:0xc0004a3b80} namespace=admin
+DEBUG[08-28|19:03:03.280] InProc registered                        service="&{mu:{state:0 sema:0} cpuW:<nil> cpuFile: traceW:<nil> traceFile:}" namespace=debug
+DEBUG[08-28|19:03:03.280] InProc registered                        service=&{node:0xc0004a3b80}                                                 namespace=debug
+DEBUG[08-28|19:03:03.280] InProc registered                        service=&{stack:0xc0004a3b80}                                                namespace=web3
+DEBUG[08-28|19:03:03.281] InProc registered                        service=&{b:0xc000069bb0}                                                    namespace=eth
+DEBUG[08-28|19:03:03.281] InProc registered                        service=&{b:0xc000069bb0}                                                    namespace=eth
+DEBUG[08-28|19:03:03.281] InProc registered                        service="&{b:0xc000069bb0 nonceLock:0xc00046f770}"                           namespace=eth
+DEBUG[08-28|19:03:03.281] InProc registered                        service=&{b:0xc000069bb0}                                                    namespace=txpool
+DEBUG[08-28|19:03:03.281] InProc registered                        service=&{b:0xc000069bb0}                                                    namespace=debug
+DEBUG[08-28|19:03:03.281] InProc registered                        service=&{b:0xc000069bb0}                                                    namespace=debug
+DEBUG[08-28|19:03:03.281] InProc registered                        service=&{am:0xc0000a3860}                                                   namespace=eth
+DEBUG[08-28|19:03:03.281] InProc registered                        service="&{am:0xc0000a3860 nonceLock:0xc00046f770 b:0xc000069bb0}"           namespace=personal
+DEBUG[08-28|19:03:03.281] InProc registered                        service=&{ethash:0xc0001b49a0}                                               namespace=eth
+DEBUG[08-28|19:03:03.281] InProc registered                        service=&{ethash:0xc0001b49a0}                                               namespace=ethash
+DEBUG[08-28|19:03:03.281] InProc registered                        service=&{e:0xc0001b4b60}                                                    namespace=eth
+DEBUG[08-28|19:03:03.281] InProc registered                        service=&{e:0xc0001b4b60}                                                    namespace=eth
+DEBUG[08-28|19:03:03.281] InProc registered                        service="&{d:0xc0000a5ba0 mux:0xc0000a0e10 installSyncSubscription:0xc000275ec0 uninstallSyncSubscription:0xc000275f20}" namespace=eth
+DEBUG[08-28|19:03:03.281] InProc registered                        service=&{e:0xc0001b4b60}                                                                                                namespace=miner
+DEBUG[08-28|19:03:03.281] InProc registered                        service="&{backend:0xc000069bb0 mux:0xc0000a0e10 quit:<nil> chainDb:0xc0000ce420 events:0xc000491a40 filtersMu:{state:0 sema:0} filters:map[]}" namespace=eth
+DEBUG[08-28|19:03:03.281] InProc registered                        service=&{eth:0xc0001b4b60}                                                                                                                     namespace=admin
+DEBUG[08-28|19:03:03.281] InProc registered                        service=&{eth:0xc0001b4b60}                                                                                                                     namespace=debug
+DEBUG[08-28|19:03:03.281] InProc registered                        service="&{config:0xc0000bc0a0 eth:0xc0001b4b60}"                                                                                               namespace=debug
+DEBUG[08-28|19:03:03.282] InProc registered                        service="&{net:0xc0000fc000 networkVersion:31338}"                                                                                              namespace=net
+DEBUG[08-28|19:03:03.282] InProc registered                        service=&{raftService:0xc000249500}                                                                                                             namespace=raft
+DEBUG[08-28|19:03:03.282] IPC registered                           namespace=admin
+DEBUG[08-28|19:03:03.282] IPC registered                           namespace=admin
+DEBUG[08-28|19:03:03.282] IPC registered                           namespace=debug
+DEBUG[08-28|19:03:03.282] IPC registered                           namespace=debug
+DEBUG[08-28|19:03:03.282] IPC registered                           namespace=web3
+DEBUG[08-28|19:03:03.282] IPC registered                           namespace=eth
+DEBUG[08-28|19:03:03.282] IPC registered                           namespace=eth
+DEBUG[08-28|19:03:03.282] IPC registered                           namespace=eth
+DEBUG[08-28|19:03:03.282] IPC registered                           namespace=txpool
+DEBUG[08-28|19:03:03.282] IPC registered                           namespace=debug
+DEBUG[08-28|19:03:03.282] IPC registered                           namespace=debug
+DEBUG[08-28|19:03:03.282] IPC registered                           namespace=eth
+DEBUG[08-28|19:03:03.282] IPC registered                           namespace=personal
+DEBUG[08-28|19:03:03.282] IPC registered                           namespace=eth
+DEBUG[08-28|19:03:03.282] IPC registered                           namespace=ethash
+DEBUG[08-28|19:03:03.282] IPC registered                           namespace=eth
+DEBUG[08-28|19:03:03.282] IPC registered                           namespace=eth
+DEBUG[08-28|19:03:03.282] IPC registered                           namespace=eth
+DEBUG[08-28|19:03:03.282] IPC registered                           namespace=miner
+DEBUG[08-28|19:03:03.282] IPC registered                           namespace=eth
+DEBUG[08-28|19:03:03.282] IPC registered                           namespace=admin
+DEBUG[08-28|19:03:03.282] IPC registered                           namespace=debug
+DEBUG[08-28|19:03:03.282] IPC registered                           namespace=debug
+DEBUG[08-28|19:03:03.282] IPC registered                           namespace=net
+DEBUG[08-28|19:03:03.283] IPC registered                           namespace=raft
+INFO [08-28|19:03:03.283] IPC endpoint opened                      url=/Users/ashwin/Documents/Projects/polichain/network/5node/geth.ipc
+DEBUG[08-28|19:03:03.283] HTTP registered                          namespace=admin
+DEBUG[08-28|19:03:03.283] HTTP registered                          namespace=admin
+DEBUG[08-28|19:03:03.283] HTTP registered                          namespace=debug
+DEBUG[08-28|19:03:03.283] HTTP registered                          namespace=debug
+DEBUG[08-28|19:03:03.283] HTTP registered                          namespace=web3
+DEBUG[08-28|19:03:03.283] HTTP registered                          namespace=eth
+DEBUG[08-28|19:03:03.284] HTTP registered                          namespace=eth
+DEBUG[08-28|19:03:03.284] HTTP registered                          namespace=eth
+DEBUG[08-28|19:03:03.284] HTTP registered                          namespace=txpool
+DEBUG[08-28|19:03:03.284] HTTP registered                          namespace=debug
+DEBUG[08-28|19:03:03.284] HTTP registered                          namespace=debug
+DEBUG[08-28|19:03:03.284] HTTP registered                          namespace=eth
+DEBUG[08-28|19:03:03.284] HTTP registered                          namespace=personal
+DEBUG[08-28|19:03:03.284] HTTP registered                          namespace=eth
+DEBUG[08-28|19:03:03.284] HTTP registered                          namespace=eth
+DEBUG[08-28|19:03:03.284] HTTP registered                          namespace=eth
+DEBUG[08-28|19:03:03.284] HTTP registered                          namespace=eth
+DEBUG[08-28|19:03:03.284] HTTP registered                          namespace=miner
+DEBUG[08-28|19:03:03.284] HTTP registered                          namespace=eth
+DEBUG[08-28|19:03:03.284] HTTP registered                          namespace=admin
+DEBUG[08-28|19:03:03.284] HTTP registered                          namespace=debug
+DEBUG[08-28|19:03:03.285] HTTP registered                          namespace=debug
+DEBUG[08-28|19:03:03.285] HTTP registered                          namespace=net
+DEBUG[08-28|19:03:03.285] HTTP registered                          namespace=raft
+INFO [08-28|19:03:03.285] HTTP endpoint opened                     url=http://0.0.0.0:32004                                              cors= vhosts=localhost
+raft2019/08/28 19:03:03 INFO: 5 [term: 64] received a MsgHeartbeat message with higher term from 2 [term: 70]
+raft2019/08/28 19:03:03 INFO: 5 became follower at term 70
+raft2019/08/28 19:03:03 INFO: raft.node: 5 elected leader 2 at term 70
+INFO [08-28|19:03:03.294] QUORUM-CHECKPOINT                        name=BECAME-VERIFIER
+2019-08-28 19:03:03.298485 I | rafthttp: established a TCP streaming connection with peer 1 (stream MsgApp v2 writer)
+2019-08-28 19:03:03.321555 I | rafthttp: established a TCP streaming connection with peer 3 (stream Message writer)
+2019-08-28 19:03:03.366681 I | rafthttp: established a TCP streaming connection with peer 1 (stream Message writer)
+2019-08-28 19:03:03.366738 I | rafthttp: established a TCP streaming connection with peer 3 (stream MsgApp v2 writer)
+2019-08-28 19:03:03.366773 I | rafthttp: established a TCP streaming connection with peer 2 (stream Message writer)
+2019-08-28 19:03:03.366809 I | rafthttp: established a TCP streaming connection with peer 4 (stream Message writer)
+2019-08-28 19:03:03.366847 I | rafthttp: established a TCP streaming connection with peer 2 (stream MsgApp v2 writer)
+2019-08-28 19:03:03.366888 I | rafthttp: established a TCP streaming connection with peer 4 (stream MsgApp v2 writer)
+INFO [08-28|19:03:03.375] persisted the latest applied index       index=208
+DEBUG[08-28|19:03:07.436] Couldn't add port mapping                proto=tcp extport=31004 intport=31004 interface="UPNP IGDv1-IP1" err="goupnp: SOAP request got HTTP 500 Internal Server Error"
+DEBUG[08-28|19:03:23.258] Recalculated downloader QoS values       rtt=20s confidence=0.625 ttl=1m0s
+TRACE[08-28|19:03:33.272] Dial task done                           task="wait for dial hist expire (29.994964583s)"
+TRACE[08-28|19:03:33.272] New dial task                            task="wait for dial hist expire (2.899716ms)"
+TRACE[08-28|19:03:33.275] Dial task done                           task="wait for dial hist expire (2.899716ms)"
+DEBUG[08-28|19:03:43.260] Recalculated downloader QoS values       rtt=20s confidence=0.812 ttl=1m0s
+DEBUG[08-28|19:04:03.261] Recalculated downloader QoS values       rtt=20s confidence=0.906 ttl=1m0s
+DEBUG[08-28|19:04:23.266] Recalculated downloader QoS values       rtt=20s confidence=0.953 ttl=1m0s
+DEBUG[08-28|19:04:43.269] Recalculated downloader QoS values       rtt=20s confidence=0.977 ttl=1m0s
+DEBUG[08-28|19:05:03.270] Recalculated downloader QoS values       rtt=20s confidence=0.988 ttl=1m0s
+DEBUG[08-28|19:05:23.271] Recalculated downloader QoS values       rtt=20s confidence=0.994 ttl=1m0s
+DEBUG[08-28|19:05:43.272] Recalculated downloader QoS values       rtt=20s confidence=0.997 ttl=1m0s
+DEBUG[08-28|19:06:03.274] Recalculated downloader QoS values       rtt=20s confidence=0.999 ttl=1m0s
+DEBUG[08-28|19:06:23.275] Recalculated downloader QoS values       rtt=20s confidence=0.999 ttl=1m0s
+DEBUG[08-28|19:06:43.276] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:07:03.278] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:07:23.286] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:07:43.288] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:08:03.291] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:08:23.298] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:08:43.301] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:09:03.301] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:09:23.304] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:09:43.304] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:10:03.307] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:10:23.312] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:10:43.316] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:11:03.319] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:11:23.320] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:11:43.327] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:12:03.331] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:12:23.337] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:12:43.341] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:13:03.342] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:13:23.347] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:13:43.349] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:14:03.352] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:14:23.358] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:14:43.360] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:15:03.363] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:15:23.364] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:15:43.365] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:16:03.369] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:16:23.370] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:16:43.371] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:17:03.374] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:17:23.379] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:17:43.380] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+TRACE[08-28|19:18:03.281] Refreshing port mapping                  proto=tcp extport=31004 intport=31004 interface="UPNP IGDv1-IP1"
+DEBUG[08-28|19:18:03.296] Couldn't add port mapping                proto=tcp extport=31004 intport=31004 interface="UPNP IGDv1-IP1" err="goupnp: SOAP request got HTTP 500 Internal Server Error"
+DEBUG[08-28|19:18:03.386] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:18:23.390] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:18:43.392] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:19:03.398] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:19:23.402] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:19:43.407] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:20:03.412] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:20:23.418] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:20:43.424] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:21:03.430] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:21:23.433] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:21:43.435] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:22:03.442] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:22:23.443] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:22:43.449] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:23:03.458] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:23:23.469] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:23:43.477] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:24:03.479] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:24:23.481] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:24:43.483] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:25:03.486] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:25:23.488] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:25:43.490] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:26:03.492] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:26:23.500] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:26:43.502] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:27:03.507] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:27:23.511] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:27:43.517] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:28:03.521] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:28:23.522] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:28:43.525] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:29:03.528] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:29:23.535] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:29:43.542] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:30:03.548] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:30:23.554] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:30:43.560] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:31:03.561] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:31:23.563] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:31:43.570] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:32:03.573] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:32:23.578] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:32:43.581] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+TRACE[08-28|19:33:03.312] Refreshing port mapping                  proto=tcp extport=31004 intport=31004 interface="UPNP IGDv1-IP1"
+DEBUG[08-28|19:33:03.322] Couldn't add port mapping                proto=tcp extport=31004 intport=31004 interface="UPNP IGDv1-IP1" err="goupnp: SOAP request got HTTP 500 Internal Server Error"
+DEBUG[08-28|19:33:03.582] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:33:23.587] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:33:43.589] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:34:03.594] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:34:23.595] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:34:43.601] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:35:03.604] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:35:23.608] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:35:43.612] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:36:03.614] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:36:23.618] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:36:43.622] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:37:03.625] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:37:23.628] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:37:43.629] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:38:03.639] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:38:23.642] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:38:43.646] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:39:03.649] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:39:23.653] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:39:43.658] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:40:03.661] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:40:23.667] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:40:43.668] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:41:03.671] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:41:23.678] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:41:43.685] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:42:03.689] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:42:23.694] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:42:43.695] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:43:03.700] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:43:23.703] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:43:43.708] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:44:03.713] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:44:23.720] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:44:43.725] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:45:03.728] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:45:23.730] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:45:43.736] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:46:03.738] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:46:23.744] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:46:43.746] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:47:03.748] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:47:23.752] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:47:43.756] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+TRACE[08-28|19:48:03.341] Refreshing port mapping                  proto=tcp extport=31004 intport=31004 interface="UPNP IGDv1-IP1"
+DEBUG[08-28|19:48:03.360] Couldn't add port mapping                proto=tcp extport=31004 intport=31004 interface="UPNP IGDv1-IP1" err="goupnp: SOAP request got HTTP 500 Internal Server Error"
+DEBUG[08-28|19:48:03.758] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:48:23.761] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:48:43.766] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:49:03.770] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:49:23.775] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:49:43.776] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:50:03.780] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:50:23.784] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:50:43.788] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:51:03.790] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:51:23.797] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:51:43.802] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:52:03.805] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:52:23.811] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:52:43.815] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:53:03.819] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:53:23.825] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:53:43.828] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:54:03.829] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:54:23.830] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:54:43.831] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:55:03.832] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:55:23.833] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:55:43.836] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:56:03.836] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:56:23.837] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:56:43.841] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:57:03.845] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:57:23.845] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:57:43.848] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:58:03.853] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:58:23.856] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:58:43.857] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:59:03.859] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:59:23.860] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|19:59:43.865] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|20:00:03.866] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|20:00:23.869] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|20:00:43.870] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|20:01:03.872] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|20:01:23.875] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|20:01:43.878] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|20:02:03.882] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|20:02:23.884] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|20:02:43.889] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+INFO [08-28|20:03:03.318] Regenerated local transaction journal    transactions=0 accounts=0
+TRACE[08-28|20:03:03.376] Refreshing port mapping                  proto=tcp extport=31004 intport=31004 interface="UPNP IGDv1-IP1"
+DEBUG[08-28|20:03:03.396] Couldn't add port mapping                proto=tcp extport=31004 intport=31004 interface="UPNP IGDv1-IP1" err="goupnp: SOAP request got HTTP 500 Internal Server Error"
+DEBUG[08-28|20:03:03.890] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|20:03:23.893] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|20:03:43.896] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|20:04:03.897] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|20:04:23.902] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|20:04:43.905] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|20:05:03.909] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|20:05:23.913] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|20:05:43.920] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|20:06:03.924] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|20:06:23.927] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|20:06:43.930] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|20:07:03.930] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|20:07:23.934] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|20:07:43.939] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|20:08:03.944] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|20:08:23.948] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|20:08:43.950] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|20:09:03.952] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|20:09:23.954] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|20:09:43.955] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|20:10:03.960] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|20:10:23.962] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|20:10:43.966] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|20:11:03.968] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|20:11:23.972] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|20:11:43.977] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|20:12:03.982] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|20:12:23.984] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|20:12:43.987] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|20:13:03.993] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|20:13:23.999] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|20:13:44.003] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|20:14:04.006] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|20:14:24.007] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|20:14:44.009] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|20:15:04.012] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|20:15:24.016] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|20:15:44.022] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|20:16:04.022] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|20:16:24.023] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|20:16:44.024] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|20:17:04.027] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|20:17:24.030] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|20:17:44.036] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+TRACE[08-28|20:18:03.413] Refreshing port mapping                  proto=tcp extport=31004 intport=31004 interface="UPNP IGDv1-IP1"
+DEBUG[08-28|20:18:03.425] Couldn't add port mapping                proto=tcp extport=31004 intport=31004 interface="UPNP IGDv1-IP1" err="goupnp: SOAP request got HTTP 500 Internal Server Error"
+DEBUG[08-28|20:18:04.038] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|20:18:24.040] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|20:18:44.046] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|20:19:04.048] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|20:19:24.053] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|20:19:44.056] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|20:20:04.057] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|20:20:24.058] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|20:20:44.060] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|20:21:04.062] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|20:21:24.063] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|20:21:44.068] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|20:22:04.073] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|20:22:24.078] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|20:22:44.083] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|20:23:04.084] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|20:23:24.085] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|20:23:44.086] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|20:24:04.086] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|20:24:24.089] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|20:24:44.090] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|20:25:04.092] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|20:25:24.092] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|20:25:44.094] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|20:26:04.095] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|20:26:24.097] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|20:26:44.100] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|20:27:04.100] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|20:27:24.104] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|20:27:44.107] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|20:28:04.112] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|20:28:24.118] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|20:28:44.123] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|20:29:04.126] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|20:29:24.129] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|20:29:44.130] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[08-28|20:29:49.610] Ethereum message handling failed         id=2138665dcb55e9aa conn=staticdial err=EOF
+DEBUG[08-28|20:29:49.610] Removing Ethereum peer                   peer=2138665dcb55e9aa
+TRACE[08-28|20:29:49.610] Unregistering sync peer                  peer=2138665dcb55e9aa
+DEBUG[08-28|20:29:49.611] Removing p2p peer                        id=2138665dcb55e9aa conn=staticdial duration=1h26m46.247s peers=3 req=true err="client quitting"
+TRACE[08-28|20:29:49.612] New dial task                            task="staticdial 2138665dcb55e9aa 127.0.0.1:31000"
+TRACE[08-28|20:29:49.613] Accepted connection                      addr=127.0.0.1:60766
+INFO [08-28|20:29:49.631] New local node record                    seq=4 id=9d6a49b5bd26d63a ip=183.82.127.7 udp=0 tcp=31004
+TRACE[08-28|20:29:49.631] Quorum permissioning                     id=2138665dcb55e9aa addr=127.0.0.1:60766 conn=inbound    EnableNodePermission=false DataDir=/Users/ashwin/Documents/Projects/polichain/network/5node Current Node ID=9d6a49b5bd26d63aa87af924e2e2d3c9bf7797314b068c8781072117e029143c Node Name=Geth/v1.8.18-stable-664c2ab2(quorum-v2.2.5)/darwin-amd64/go1.11 Dialed Dest=nil                                                                                                                                                                                  Connection ID=2138665dcb55e9aa Connection String=2138665dcb55e9aa48314ef50b4f348bfc051d14ca3e80096f1b2e1bfa61e411
+TRACE[08-28|20:29:49.631] Node Permissioning is Disabled.          id=2138665dcb55e9aa addr=127.0.0.1:60766 conn=inbound
+TRACE[08-28|20:29:49.632] Quorum permissioning                     id=2138665dcb55e9aa addr=127.0.0.1:31000 conn=staticdial EnableNodePermission=false DataDir=/Users/ashwin/Documents/Projects/polichain/network/5node Current Node ID=9d6a49b5bd26d63aa87af924e2e2d3c9bf7797314b068c8781072117e029143c Node Name=Geth/v1.8.18-stable-664c2ab2(quorum-v2.2.5)/darwin-amd64/go1.11 Dialed Dest="enode://5f8412d6d5a089b8de14569f45977dc01cefe62fbe5ba6252b31721f4c6b0a94409b21b27934a876fefb9ac3ca8cc32267ec403c71517a237bd8a649b25216ce@127.0.0.1:31000?discport=0&raftport=60000" Connection ID=2138665dcb55e9aa Connection String=2138665dcb55e9aa48314ef50b4f348bfc051d14ca3e80096f1b2e1bfa61e411
+TRACE[08-28|20:29:49.632] Node Permissioning is Disabled.          id=2138665dcb55e9aa addr=127.0.0.1:31000 conn=staticdial
+2019-08-28 20:29:49.633902 W | rafthttp: lost the TCP streaming connection with peer 1 (stream Message reader)
+2019-08-28 20:29:49.634257 W | rafthttp: lost the TCP streaming connection with peer 1 (stream MsgApp v2 reader)
+DEBUG[08-28|20:29:49.634] Adding p2p peer                          name=Geth/v1.8.18-stable-...                                         addr=127.0.0.1:31000 peers=4
+TRACE[08-28|20:29:49.634] connection set up                        id=2138665dcb55e9aa addr=127.0.0.1:31000 conn=staticdial inbound=false
+TRACE[08-28|20:29:49.634] Dial task done                           task="staticdial 2138665dcb55e9aa 127.0.0.1:31000"
+TRACE[08-28|20:29:49.634] New dial task                            task="wait for dial hist expire (29.999989336s)"
+TRACE[08-28|20:29:49.635] Starting protocol eth/63                 id=2138665dcb55e9aa conn=staticdial
+DEBUG[08-28|20:29:49.635] Ethereum peer connected                  id=2138665dcb55e9aa conn=staticdial name=Geth/v1.8.18-stable-664c2ab2(quorum-v2.2.5)/darwin-amd64/go1.11
+DEBUG[08-28|20:29:49.638] Ethereum handshake failed                id=2138665dcb55e9aa conn=staticdial err=EOF
+TRACE[08-28|20:29:49.638] Rejected peer                            id=2138665dcb55e9aa addr=127.0.0.1:60766 conn=inbound    err="already connected"
+TRACE[08-28|20:29:49.638] Setting up connection failed             addr=127.0.0.1:60766 err="already connected"
+DEBUG[08-28|20:29:49.638] Removing p2p peer                        id=2138665dcb55e9aa conn=staticdial duration=4.534ms      peers=3 req=true err="already connected"
+2019-08-28 20:29:49.739206 E | rafthttp: failed to dial 1 on stream MsgApp v2 (dial tcp 127.0.0.1:60000: connect: connection refused)
+2019-08-28 20:29:49.739263 I | rafthttp: peer 1 became inactive
+DEBUG[08-28|20:29:54.632] Ethereum message handling failed         id=46760405a6473d93 conn=staticdial err=EOF
+DEBUG[08-28|20:29:54.632] Removing Ethereum peer                   peer=46760405a6473d93
+TRACE[08-28|20:29:54.632] Unregistering sync peer                  peer=46760405a6473d93
+DEBUG[08-28|20:29:54.632] Removing p2p peer                        id=46760405a6473d93 conn=staticdial duration=1h26m51.273s peers=2 req=true err="client quitting"
+TRACE[08-28|20:29:54.632] New dial task                            task="staticdial 46760405a6473d93 127.0.0.1:31001"
+TRACE[08-28|20:29:54.635] Accepted connection                      addr=127.0.0.1:61229
+2019-08-28 20:29:54.638711 W | rafthttp: lost the TCP streaming connection with peer 2 (stream Message reader)
+TRACE[08-28|20:29:54.639] Quorum permissioning                     id=46760405a6473d93 addr=127.0.0.1:31001 conn=staticdial EnableNodePermission=false DataDir=/Users/ashwin/Documents/Projects/polichain/network/5node Current Node ID=9d6a49b5bd26d63aa87af924e2e2d3c9bf7797314b068c8781072117e029143c Node Name=Geth/v1.8.18-stable-664c2ab2(quorum-v2.2.5)/darwin-amd64/go1.11 Dialed Dest="enode://3f689cdce9a7245f6b94c01070a31c658395890658bffb3ae7ea3a4b399aa9e03cc46c5543424a40302b7efccc666750d4d9ac07887452f45aec4cd2f5a71c90@127.0.0.1:31001?discport=0&raftport=60001" Connection ID=46760405a6473d93 Connection String=46760405a6473d93c3ed5cc1aa2af0ea2e6e8c0f6587d69ece0dc8c624fdc6a7
+TRACE[08-28|20:29:54.639] Node Permissioning is Disabled.          id=46760405a6473d93 addr=127.0.0.1:31001 conn=staticdial
+DEBUG[08-28|20:29:54.639] Adding p2p peer                          name=Geth/v1.8.18-stable-...                                         addr=127.0.0.1:31001 peers=3
+TRACE[08-28|20:29:54.639] connection set up                        id=46760405a6473d93 addr=127.0.0.1:31001 conn=staticdial inbound=false
+TRACE[08-28|20:29:54.639] Dial task done                           task="staticdial 46760405a6473d93 127.0.0.1:31001"
+TRACE[08-28|20:29:54.639] Starting protocol eth/63                 id=46760405a6473d93 conn=staticdial
+DEBUG[08-28|20:29:54.639] Ethereum peer connected                  id=46760405a6473d93 conn=staticdial name=Geth/v1.8.18-stable-664c2ab2(quorum-v2.2.5)/darwin-amd64/go1.11
+2019-08-28 20:29:54.640868 W | rafthttp: lost the TCP streaming connection with peer 2 (stream MsgApp v2 reader)
+TRACE[08-28|20:29:54.644] Quorum permissioning                     id=46760405a6473d93 addr=127.0.0.1:61229 conn=inbound    EnableNodePermission=false DataDir=/Users/ashwin/Documents/Projects/polichain/network/5node Current Node ID=9d6a49b5bd26d63aa87af924e2e2d3c9bf7797314b068c8781072117e029143c Node Name=Geth/v1.8.18-stable-664c2ab2(quorum-v2.2.5)/darwin-amd64/go1.11 Dialed Dest=nil                                                                                                                                                                                  Connection ID=46760405a6473d93 Connection String=46760405a6473d93c3ed5cc1aa2af0ea2e6e8c0f6587d69ece0dc8c624fdc6a7
+TRACE[08-28|20:29:54.644] Node Permissioning is Disabled.          id=46760405a6473d93 addr=127.0.0.1:61229 conn=inbound
+TRACE[08-28|20:29:54.644] Rejected peer before protocol handshake  id=46760405a6473d93 addr=127.0.0.1:61229 conn=inbound    err="already connected"
+TRACE[08-28|20:29:54.644] Setting up connection failed             addr=127.0.0.1:61229 err="already connected"
+DEBUG[08-28|20:29:54.645] Ethereum handshake failed                id=46760405a6473d93 conn=staticdial err="write tcp 127.0.0.1:61231->127.0.0.1:31001: write: broken pipe"
+TRACE[08-28|20:29:54.645] Protocol eth/63 failed                   id=46760405a6473d93 conn=staticdial err="write tcp 127.0.0.1:61231->127.0.0.1:31001: write: broken pipe"
+DEBUG[08-28|20:29:54.645] Removing p2p peer                        id=46760405a6473d93 conn=staticdial duration=5.527ms      peers=2 req=false err="write tcp 127.0.0.1:61231->127.0.0.1:31001: write: broken pipe"
+2019-08-28 20:29:54.739429 E | rafthttp: failed to dial 2 on stream Message (dial tcp 127.0.0.1:60001: connect: connection refused)
+2019-08-28 20:29:54.739483 I | rafthttp: peer 2 became inactive
+2019-08-28 20:29:55.028716 W | rafthttp: lost the TCP streaming connection with peer 1 (stream Message writer)
+2019-08-28 20:29:55.028782 W | rafthttp: lost the TCP streaming connection with peer 1 (stream MsgApp v2 writer)
+raft2019/08/28 20:29:55 INFO: 5 is starting a new election at term 70
+raft2019/08/28 20:29:55 INFO: 5 became candidate at term 71
+raft2019/08/28 20:29:55 INFO: 5 received MsgVoteResp from 5 at term 71
+raft2019/08/28 20:29:55 INFO: 5 [logterm: 70, index: 208] sent MsgVote request to 1 at term 71
+raft2019/08/28 20:29:55 INFO: 5 [logterm: 70, index: 208] sent MsgVote request to 2 at term 71
+raft2019/08/28 20:29:55 INFO: 5 [logterm: 70, index: 208] sent MsgVote request to 3 at term 71
+raft2019/08/28 20:29:55 INFO: 5 [logterm: 70, index: 208] sent MsgVote request to 4 at term 71
+raft2019/08/28 20:29:55 INFO: raft.node: 5 lost leader 2 at term 71
+INFO [08-28|20:29:55.871] QUORUM-CHECKPOINT                        name=BECAME-VERIFIER
+INFO [08-28|20:29:55.878] peer is currently unreachable            peer id=1
+raft2019/08/28 20:29:55 INFO: 5 received MsgVoteResp from 4 at term 71
+raft2019/08/28 20:29:55 INFO: 5 [quorum:3] has received 2 MsgVoteResp votes and 0 vote rejections
+raft2019/08/28 20:29:55 INFO: 5 received MsgVoteResp from 3 at term 71
+raft2019/08/28 20:29:55 INFO: 5 [quorum:3] has received 3 MsgVoteResp votes and 0 vote rejections
+raft2019/08/28 20:29:55 INFO: 5 became leader at term 71
+raft2019/08/28 20:29:55 INFO: raft.node: 5 elected leader 5 at term 71
+INFO [08-28|20:29:55.888] QUORUM-CHECKPOINT                        name=BECAME-MINTER
+INFO [08-28|20:29:55.889] Not minting a new block since there are no pending transactions 
+INFO [08-28|20:29:55.892] peer is currently unreachable            peer id=1
+INFO [08-28|20:29:55.902] persisted the latest applied index       index=209
+INFO [08-28|20:29:55.970] peer is currently unreachable            peer id=1
+INFO [08-28|20:29:56.069] peer is currently unreachable            peer id=1
+2019-08-28 20:29:56.070891 W | rafthttp: lost the TCP streaming connection with peer 2 (stream Message writer)
+INFO [08-28|20:29:56.070] peer is currently unreachable            peer id=2
+INFO [08-28|20:29:56.173] peer is currently unreachable            peer id=2
+INFO [08-28|20:29:56.174] peer is currently unreachable            peer id=1
+INFO [08-28|20:29:56.275] peer is currently unreachable            peer id=1
+INFO [08-28|20:29:56.275] peer is currently unreachable            peer id=2
+INFO [08-28|20:29:56.369] peer is currently unreachable            peer id=2
+INFO [08-28|20:29:56.369] peer is currently unreachable            peer id=1
+INFO [08-28|20:29:56.472] peer is currently unreachable            peer id=1
+INFO [08-28|20:29:56.472] peer is currently unreachable            peer id=2
+INFO [08-28|20:29:56.574] peer is currently unreachable            peer id=1
+INFO [08-28|20:29:56.574] peer is currently unreachable            peer id=2
+INFO [08-28|20:29:56.670] peer is currently unreachable            peer id=2
+INFO [08-28|20:29:56.670] peer is currently unreachable            peer id=1
+INFO [08-28|20:29:56.773] peer is currently unreachable            peer id=2
+INFO [08-28|20:29:56.773] peer is currently unreachable            peer id=1
+INFO [08-28|20:29:56.870] peer is currently unreachable            peer id=2
+INFO [08-28|20:29:56.870] peer is currently unreachable            peer id=1
+INFO [08-28|20:29:56.970] peer is currently unreachable            peer id=1
+INFO [08-28|20:29:56.970] peer is currently unreachable            peer id=2
+INFO [08-28|20:29:57.070] peer is currently unreachable            peer id=2
+INFO [08-28|20:29:57.070] peer is currently unreachable            peer id=1
+INFO [08-28|20:29:57.174] peer is currently unreachable            peer id=1
+INFO [08-28|20:29:57.175] peer is currently unreachable            peer id=2
+INFO [08-28|20:29:57.272] peer is currently unreachable            peer id=2
+INFO [08-28|20:29:57.272] peer is currently unreachable            peer id=1
+INFO [08-28|20:29:57.372] peer is currently unreachable            peer id=1
+INFO [08-28|20:29:57.372] peer is currently unreachable            peer id=2
+INFO [08-28|20:29:57.470] peer is currently unreachable            peer id=2
+INFO [08-28|20:29:57.470] peer is currently unreachable            peer id=1
+INFO [08-28|20:29:57.570] peer is currently unreachable            peer id=2
+INFO [08-28|20:29:57.570] peer is currently unreachable            peer id=1
+INFO [08-28|20:29:57.674] peer is currently unreachable            peer id=2
+INFO [08-28|20:29:57.674] peer is currently unreachable            peer id=1
+INFO [08-28|20:29:57.771] peer is currently unreachable            peer id=2
+INFO [08-28|20:29:57.771] peer is currently unreachable            peer id=1
+INFO [08-28|20:29:57.874] peer is currently unreachable            peer id=1
+INFO [08-28|20:29:57.874] peer is currently unreachable            peer id=2
+INFO [08-28|20:29:57.972] peer is currently unreachable            peer id=1
+INFO [08-28|20:29:57.972] peer is currently unreachable            peer id=2
+INFO [08-28|20:29:58.071] peer is currently unreachable            peer id=2
+INFO [08-28|20:29:58.071] peer is currently unreachable            peer id=1
+INFO [08-28|20:29:58.169] peer is currently unreachable            peer id=2
+INFO [08-28|20:29:58.169] peer is currently unreachable            peer id=1
+INFO [08-28|20:29:58.274] peer is currently unreachable            peer id=2
+INFO [08-28|20:29:58.275] peer is currently unreachable            peer id=1
+2019-08-28 20:29:58.358945 W | rafthttp: lost the TCP streaming connection with peer 2 (stream MsgApp v2 writer)
+INFO [08-28|20:29:58.370] peer is currently unreachable            peer id=2
+INFO [08-28|20:29:58.370] peer is currently unreachable            peer id=1
+INFO [08-28|20:29:58.672] peer is currently unreachable            peer id=1
+INFO [08-28|20:29:58.672] peer is currently unreachable            peer id=2
+INFO [08-28|20:29:58.675] peer is currently unreachable            peer id=1
+INFO [08-28|20:29:58.675] peer is currently unreachable            peer id=1
+INFO [08-28|20:29:58.675] peer is currently unreachable            peer id=2
+INFO [08-28|20:29:58.675] peer is currently unreachable            peer id=2
+INFO [08-28|20:29:58.771] peer is currently unreachable            peer id=2
+INFO [08-28|20:29:58.771] peer is currently unreachable            peer id=1
+INFO [08-28|20:29:58.871] peer is currently unreachable            peer id=1
+INFO [08-28|20:29:58.871] peer is currently unreachable            peer id=2
+INFO [08-28|20:29:58.973] peer is currently unreachable            peer id=1
+INFO [08-28|20:29:58.973] peer is currently unreachable            peer id=2
+INFO [08-28|20:29:59.070] peer is currently unreachable            peer id=1
+INFO [08-28|20:29:59.070] peer is currently unreachable            peer id=2
+INFO [08-28|20:29:59.172] peer is currently unreachable            peer id=2
+INFO [08-28|20:29:59.172] peer is currently unreachable            peer id=1
+INFO [08-28|20:29:59.273] peer is currently unreachable            peer id=2
+INFO [08-28|20:29:59.273] peer is currently unreachable            peer id=1
+INFO [08-28|20:29:59.371] peer is currently unreachable            peer id=2
+INFO [08-28|20:29:59.372] peer is currently unreachable            peer id=1
+INFO [08-28|20:29:59.470] peer is currently unreachable            peer id=2
+INFO [08-28|20:29:59.470] peer is currently unreachable            peer id=1
+INFO [08-28|20:29:59.570] peer is currently unreachable            peer id=1
+INFO [08-28|20:29:59.570] peer is currently unreachable            peer id=2
+INFO [08-28|20:29:59.672] peer is currently unreachable            peer id=1
+INFO [08-28|20:29:59.672] peer is currently unreachable            peer id=2
+INFO [08-28|20:29:59.770] peer is currently unreachable            peer id=1
+INFO [08-28|20:29:59.770] peer is currently unreachable            peer id=2
+INFO [08-28|20:29:59.874] peer is currently unreachable            peer id=2
+INFO [08-28|20:29:59.874] peer is currently unreachable            peer id=1
+INFO [08-28|20:29:59.973] peer is currently unreachable            peer id=2
+INFO [08-28|20:29:59.973] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:00.074] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:00.074] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:00.170] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:00.170] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:00.269] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:00.269] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:00.370] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:00.370] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:00.672] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:00.672] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:00.678] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:00.678] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:00.681] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:00.681] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:00.772] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:00.772] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:00.874] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:00.874] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:00.974] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:00.974] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:01.071] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:01.071] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:01.170] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:01.170] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:01.273] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:01.273] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:01.371] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:01.371] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:01.472] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:01.472] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:01.570] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:01.570] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:01.675] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:01.675] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:01.770] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:01.770] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:01.874] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:01.874] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:01.972] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:01.972] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:02.072] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:02.072] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:02.175] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:02.175] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:02.275] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:02.275] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:02.674] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:02.674] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:02.674] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:02.674] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:02.680] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:02.680] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:02.680] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:02.680] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:02.770] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:02.770] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:02.875] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:02.875] peer is currently unreachable            peer id=2
+DEBUG[08-28|20:30:02.884] Ethereum message handling failed         id=29c99789ac50840d conn=staticdial err=EOF
+DEBUG[08-28|20:30:02.884] Removing Ethereum peer                   peer=29c99789ac50840d
+TRACE[08-28|20:30:02.884] Unregistering sync peer                  peer=29c99789ac50840d
+DEBUG[08-28|20:30:02.884] Removing p2p peer                        id=29c99789ac50840d conn=staticdial duration=1h26m59.522s peers=1 req=true  err="client quitting"
+TRACE[08-28|20:30:02.884] New dial task                            task="staticdial 29c99789ac50840d 127.0.0.1:31002"
+TRACE[08-28|20:30:02.886] Accepted connection                      addr=127.0.0.1:62280
+TRACE[08-28|20:30:02.896] Quorum permissioning                     id=29c99789ac50840d addr=127.0.0.1:62280 conn=inbound    EnableNodePermission=false DataDir=/Users/ashwin/Documents/Projects/polichain/network/5node Current Node ID=9d6a49b5bd26d63aa87af924e2e2d3c9bf7797314b068c8781072117e029143c Node Name=Geth/v1.8.18-stable-664c2ab2(quorum-v2.2.5)/darwin-amd64/go1.11 Dialed Dest=nil                                                                                                                                                                                  Connection ID=29c99789ac50840d Connection String=29c99789ac50840d2fc553c80c1aa8c2d107f3ac75f4d6d8c63c8ebea11ab83a
+TRACE[08-28|20:30:02.896] Node Permissioning is Disabled.          id=29c99789ac50840d addr=127.0.0.1:62280 conn=inbound
+2019-08-28 20:30:02.897038 W | rafthttp: lost the TCP streaming connection with peer 3 (stream Message reader)
+2019-08-28 20:30:02.897090 W | rafthttp: lost the TCP streaming connection with peer 3 (stream MsgApp v2 reader)
+TRACE[08-28|20:30:02.897] Quorum permissioning                     id=29c99789ac50840d addr=127.0.0.1:31002 conn=staticdial EnableNodePermission=false DataDir=/Users/ashwin/Documents/Projects/polichain/network/5node Current Node ID=9d6a49b5bd26d63aa87af924e2e2d3c9bf7797314b068c8781072117e029143c Node Name=Geth/v1.8.18-stable-664c2ab2(quorum-v2.2.5)/darwin-amd64/go1.11 Dialed Dest="enode://0317b83566b3aa583ef1f21b12ea9973f356e777167e43e22f4c0227c7c4d4e2cbf4b8f39bde0411e2ed5359571d7bb971146a69a9ce1a29d1068e15a9b29c9a@127.0.0.1:31002?discport=0&raftport=60002" Connection ID=29c99789ac50840d Connection String=29c99789ac50840d2fc553c80c1aa8c2d107f3ac75f4d6d8c63c8ebea11ab83a
+TRACE[08-28|20:30:02.897] Node Permissioning is Disabled.          id=29c99789ac50840d addr=127.0.0.1:31002 conn=staticdial
+DEBUG[08-28|20:30:02.897] Adding p2p peer                          name=Geth/v1.8.18-stable-...                                         addr=127.0.0.1:31002 peers=2
+TRACE[08-28|20:30:02.897] connection set up                        id=29c99789ac50840d addr=127.0.0.1:31002 conn=staticdial inbound=false
+TRACE[08-28|20:30:02.897] Dial task done                           task="staticdial 29c99789ac50840d 127.0.0.1:31002"
+TRACE[08-28|20:30:02.898] Starting protocol eth/63                 id=29c99789ac50840d conn=staticdial
+DEBUG[08-28|20:30:02.898] Ethereum peer connected                  id=29c99789ac50840d conn=staticdial name=Geth/v1.8.18-stable-664c2ab2(quorum-v2.2.5)/darwin-amd64/go1.11
+TRACE[08-28|20:30:02.898] Rejected peer                            id=29c99789ac50840d addr=127.0.0.1:62280 conn=inbound    err="already connected"
+TRACE[08-28|20:30:02.898] Setting up connection failed             addr=127.0.0.1:62280 err="already connected"
+DEBUG[08-28|20:30:02.899] Ethereum handshake failed                id=29c99789ac50840d conn=staticdial err=EOF
+DEBUG[08-28|20:30:02.899] Removing p2p peer                        id=29c99789ac50840d conn=staticdial duration=1.286ms      peers=1 req=true  err="client quitting"
+INFO [08-28|20:30:02.972] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:02.972] peer is currently unreachable            peer id=2
+2019-08-28 20:30:02.998243 E | rafthttp: failed to dial 3 on stream Message (dial tcp 127.0.0.1:60002: connect: connection refused)
+2019-08-28 20:30:02.998302 I | rafthttp: peer 3 became inactive
+INFO [08-28|20:30:03.072] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:03.072] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:03.174] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:03.174] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:03.270] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:03.270] peer is currently unreachable            peer id=1
+2019-08-28 20:30:03.271040 W | rafthttp: lost the TCP streaming connection with peer 3 (stream Message writer)
+INFO [08-28|20:30:03.271] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:03.371] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:03.371] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:03.371] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:03.472] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:03.472] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:03.472] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:03.573] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:03.573] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:03.573] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:03.672] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:03.672] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:03.672] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:03.775] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:03.775] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:03.775] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:03.873] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:03.873] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:03.873] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:03.974] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:03.974] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:03.974] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:04.073] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:04.073] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:04.073] peer is currently unreachable            peer id=1
+DEBUG[08-28|20:30:04.137] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+INFO [08-28|20:30:04.170] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:04.170] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:04.170] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:04.673] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:04.673] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:04.673] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:04.673] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:04.673] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:04.673] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:04.673] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:04.673] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:04.674] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:04.678] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:04.678] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:04.678] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:04.678] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:04.678] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:04.678] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:04.772] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:04.772] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:04.772] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:04.873] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:04.873] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:04.873] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:04.975] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:04.975] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:04.975] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:05.072] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:05.072] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:05.072] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:05.171] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:05.171] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:05.171] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:05.270] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:05.270] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:05.270] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:05.371] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:05.371] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:05.371] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:05.474] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:05.474] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:05.474] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:05.571] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:05.571] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:05.572] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:05.670] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:05.670] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:05.670] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:05.774] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:05.774] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:05.774] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:05.870] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:05.870] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:05.870] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:05.970] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:05.971] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:05.971] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:06.070] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:06.070] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:06.070] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:06.171] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:06.172] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:06.172] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:06.678] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:06.678] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:06.678] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:06.678] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:06.679] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:06.679] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:06.681] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:06.681] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:06.681] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:06.682] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:06.682] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:06.683] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:06.688] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:06.688] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:06.688] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:06.775] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:06.775] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:06.775] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:06.875] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:06.875] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:06.875] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:06.975] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:06.975] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:06.975] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:07.070] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:07.070] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:07.070] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:07.173] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:07.173] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:07.173] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:07.270] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:07.270] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:07.270] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:07.370] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:07.370] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:07.370] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:07.473] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:07.473] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:07.473] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:07.573] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:07.573] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:07.573] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:07.673] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:07.673] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:07.673] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:07.772] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:07.772] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:07.772] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:07.871] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:07.871] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:07.871] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:07.970] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:07.970] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:07.970] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:08.073] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:08.073] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:08.073] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:08.171] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:08.171] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:08.171] peer is currently unreachable            peer id=3
+2019-08-28 20:30:08.360882 W | rafthttp: lost the TCP streaming connection with peer 3 (stream MsgApp v2 writer)
+INFO [08-28|20:30:08.677] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:08.677] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:08.677] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:08.678] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:08.678] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:08.678] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:08.681] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:08.681] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:08.681] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:08.687] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:08.687] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:08.687] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:08.687] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:08.687] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:08.687] peer is currently unreachable            peer id=2
+2019-08-28 20:30:08.696841 W | rafthttp: health check for peer 3 could not connect: dial tcp 127.0.0.1:60002: connect: connection refused
+2019-08-28 20:30:08.704445 W | rafthttp: health check for peer 1 could not connect: dial tcp 127.0.0.1:60000: connect: connection refused
+2019-08-28 20:30:08.710423 W | rafthttp: health check for peer 2 could not connect: dial tcp 127.0.0.1:60001: connect: connection refused
+INFO [08-28|20:30:08.773] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:08.773] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:08.775] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:08.871] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:08.871] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:08.871] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:08.973] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:08.973] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:08.973] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:09.073] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:09.073] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:09.073] peer is currently unreachable            peer id=2
+DEBUG[08-28|20:30:09.142] Ethereum message handling failed         id=ec45c20e2b731310 conn=staticdial err=EOF
+DEBUG[08-28|20:30:09.142] Removing Ethereum peer                   peer=ec45c20e2b731310
+TRACE[08-28|20:30:09.142] Unregistering sync peer                  peer=ec45c20e2b731310
+DEBUG[08-28|20:30:09.142] Removing p2p peer                        id=ec45c20e2b731310 conn=staticdial duration=1h27m5.777s  peers=0 req=true  err="client quitting"
+TRACE[08-28|20:30:09.142] New dial task                            task="staticdial ec45c20e2b731310 127.0.0.1:31003"
+TRACE[08-28|20:30:09.142] Accepted connection                      addr=127.0.0.1:63079
+2019-08-28 20:30:09.144781 W | rafthttp: lost the TCP streaming connection with peer 4 (stream MsgApp v2 reader)
+2019-08-28 20:30:09.146591 W | rafthttp: lost the TCP streaming connection with peer 4 (stream Message reader)
+TRACE[08-28|20:30:09.147] Quorum permissioning                     id=ec45c20e2b731310 addr=127.0.0.1:63079 conn=inbound    EnableNodePermission=false DataDir=/Users/ashwin/Documents/Projects/polichain/network/5node Current Node ID=9d6a49b5bd26d63aa87af924e2e2d3c9bf7797314b068c8781072117e029143c Node Name=Geth/v1.8.18-stable-664c2ab2(quorum-v2.2.5)/darwin-amd64/go1.11 Dialed Dest=nil                                                                                                                                                                                  Connection ID=ec45c20e2b731310 Connection String=ec45c20e2b731310b24eb6e8a9ecb1bfbbdb56923b48b7a2637b726d5efc3faf
+TRACE[08-28|20:30:09.147] Node Permissioning is Disabled.          id=ec45c20e2b731310 addr=127.0.0.1:63079 conn=inbound
+TRACE[08-28|20:30:09.148] Quorum permissioning                     id=ec45c20e2b731310 addr=127.0.0.1:31003 conn=staticdial EnableNodePermission=false DataDir=/Users/ashwin/Documents/Projects/polichain/network/5node Current Node ID=9d6a49b5bd26d63aa87af924e2e2d3c9bf7797314b068c8781072117e029143c Node Name=Geth/v1.8.18-stable-664c2ab2(quorum-v2.2.5)/darwin-amd64/go1.11 Dialed Dest="enode://bcb1a290d8a6597e428aa4014f971e340f99423fe36c34a71f739d6009e7fd9ab9342ce8b58dc8f2b886c54c939cbb59177151fb0de33016e571b6ab5f717b86@127.0.0.1:31003?discport=0&raftport=60003" Connection ID=ec45c20e2b731310 Connection String=ec45c20e2b731310b24eb6e8a9ecb1bfbbdb56923b48b7a2637b726d5efc3faf
+TRACE[08-28|20:30:09.148] Node Permissioning is Disabled.          id=ec45c20e2b731310 addr=127.0.0.1:31003 conn=staticdial
+DEBUG[08-28|20:30:09.149] Adding p2p peer                          name=Geth/v1.8.18-stable-...                                         addr=127.0.0.1:31003 peers=1
+TRACE[08-28|20:30:09.149] connection set up                        id=ec45c20e2b731310 addr=127.0.0.1:31003 conn=staticdial inbound=false
+TRACE[08-28|20:30:09.149] Dial task done                           task="staticdial ec45c20e2b731310 127.0.0.1:31003"
+TRACE[08-28|20:30:09.149] Starting protocol eth/63                 id=ec45c20e2b731310 conn=staticdial
+DEBUG[08-28|20:30:09.149] Ethereum peer connected                  id=ec45c20e2b731310 conn=staticdial name=Geth/v1.8.18-stable-664c2ab2(quorum-v2.2.5)/darwin-amd64/go1.11
+DEBUG[08-28|20:30:09.149] Ethereum handshake failed                id=ec45c20e2b731310 conn=staticdial err="write tcp 127.0.0.1:63080->127.0.0.1:31003: write: broken pipe"
+TRACE[08-28|20:30:09.149] Protocol eth/63 failed                   id=ec45c20e2b731310 conn=staticdial err="write tcp 127.0.0.1:63080->127.0.0.1:31003: write: broken pipe"
+DEBUG[08-28|20:30:09.149] Removing p2p peer                        id=ec45c20e2b731310 conn=staticdial duration=496.466µs    peers=0 req=false err="write tcp 127.0.0.1:63080->127.0.0.1:31003: write: broken pipe"
+TRACE[08-28|20:30:09.149] Failed proto handshake                   id=ec45c20e2b731310 addr=127.0.0.1:63079 conn=inbound    err="read tcp 127.0.0.1:31004->127.0.0.1:63079: read: connection reset by peer"
+TRACE[08-28|20:30:09.149] Setting up connection failed             addr=127.0.0.1:63079 err="read tcp 127.0.0.1:31004->127.0.0.1:63079: read: connection reset by peer"
+INFO [08-28|20:30:09.173] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:09.173] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:09.173] peer is currently unreachable            peer id=2
+2019-08-28 20:30:09.246885 E | rafthttp: failed to dial 4 on stream MsgApp v2 (dial tcp 127.0.0.1:60003: connect: connection refused)
+2019-08-28 20:30:09.246930 I | rafthttp: peer 4 became inactive
+INFO [08-28|20:30:09.275] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:09.275] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:09.275] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:09.373] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:09.373] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:09.373] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:09.470] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:09.470] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:09.470] peer is currently unreachable            peer id=3
+2019-08-28 20:30:09.471799 W | rafthttp: lost the TCP streaming connection with peer 4 (stream Message writer)
+INFO [08-28|20:30:09.471] peer is currently unreachable            peer id=4
+INFO [08-28|20:30:09.575] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:09.575] peer is currently unreachable            peer id=4
+INFO [08-28|20:30:09.575] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:09.575] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:09.670] peer is currently unreachable            peer id=4
+INFO [08-28|20:30:09.670] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:09.670] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:09.670] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:09.771] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:09.771] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:09.771] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:09.771] peer is currently unreachable            peer id=4
+INFO [08-28|20:30:09.871] peer is currently unreachable            peer id=4
+INFO [08-28|20:30:09.871] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:09.871] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:09.871] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:09.969] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:09.969] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:09.969] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:09.969] peer is currently unreachable            peer id=4
+INFO [08-28|20:30:10.074] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:10.074] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:10.074] peer is currently unreachable            peer id=4
+INFO [08-28|20:30:10.074] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:10.173] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:10.173] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:10.173] peer is currently unreachable            peer id=4
+INFO [08-28|20:30:10.173] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:10.271] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:10.271] peer is currently unreachable            peer id=4
+INFO [08-28|20:30:10.271] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:10.271] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:10.370] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:10.371] peer is currently unreachable            peer id=4
+INFO [08-28|20:30:10.371] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:10.371] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:10.470] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:10.470] peer is currently unreachable            peer id=4
+INFO [08-28|20:30:10.470] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:10.672] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:10.672] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:10.672] peer is currently unreachable            peer id=4
+INFO [08-28|20:30:10.672] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:10.672] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:10.672] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:10.672] peer is currently unreachable            peer id=4
+INFO [08-28|20:30:10.672] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:10.674] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:10.773] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:10.773] peer is currently unreachable            peer id=4
+INFO [08-28|20:30:10.773] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:10.773] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:10.875] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:10.875] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:10.875] peer is currently unreachable            peer id=4
+INFO [08-28|20:30:10.875] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:10.975] peer is currently unreachable            peer id=4
+INFO [08-28|20:30:10.975] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:10.975] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:10.975] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:11.070] peer is currently unreachable            peer id=4
+INFO [08-28|20:30:11.070] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:11.070] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:11.070] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:11.174] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:11.174] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:11.174] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:11.174] peer is currently unreachable            peer id=4
+INFO [08-28|20:30:11.272] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:11.272] peer is currently unreachable            peer id=4
+INFO [08-28|20:30:11.272] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:11.272] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:11.370] peer is currently unreachable            peer id=4
+INFO [08-28|20:30:11.370] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:11.370] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:11.371] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:11.472] peer is currently unreachable            peer id=4
+INFO [08-28|20:30:11.472] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:11.472] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:11.472] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:11.574] peer is currently unreachable            peer id=4
+INFO [08-28|20:30:11.574] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:11.574] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:11.574] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:11.670] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:11.670] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:11.670] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:11.670] peer is currently unreachable            peer id=4
+INFO [08-28|20:30:11.774] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:11.774] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:11.774] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:11.774] peer is currently unreachable            peer id=4
+INFO [08-28|20:30:11.870] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:11.870] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:11.870] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:11.870] peer is currently unreachable            peer id=4
+INFO [08-28|20:30:11.973] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:11.973] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:11.973] peer is currently unreachable            peer id=4
+INFO [08-28|20:30:11.973] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:12.070] peer is currently unreachable            peer id=4
+INFO [08-28|20:30:12.070] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:12.070] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:12.070] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:12.173] peer is currently unreachable            peer id=4
+INFO [08-28|20:30:12.173] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:12.173] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:12.173] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:12.271] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:12.271] peer is currently unreachable            peer id=4
+INFO [08-28|20:30:12.271] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:12.271] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:12.370] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:12.370] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:12.370] peer is currently unreachable            peer id=4
+INFO [08-28|20:30:12.370] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:12.470] peer is currently unreachable            peer id=4
+INFO [08-28|20:30:12.470] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:12.470] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:12.471] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:12.573] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:12.573] peer is currently unreachable            peer id=4
+INFO [08-28|20:30:12.573] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:12.573] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:12.675] peer is currently unreachable            peer id=4
+INFO [08-28|20:30:12.675] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:12.675] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:12.676] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:12.771] peer is currently unreachable            peer id=4
+INFO [08-28|20:30:12.771] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:12.771] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:12.771] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:12.873] peer is currently unreachable            peer id=4
+INFO [08-28|20:30:12.873] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:12.873] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:12.873] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:12.975] peer is currently unreachable            peer id=4
+INFO [08-28|20:30:12.975] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:12.975] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:12.975] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:13.073] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:13.073] peer is currently unreachable            peer id=4
+INFO [08-28|20:30:13.073] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:13.073] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:13.172] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:13.172] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:13.172] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:13.172] peer is currently unreachable            peer id=4
+INFO [08-28|20:30:13.270] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:13.270] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:13.270] peer is currently unreachable            peer id=4
+INFO [08-28|20:30:13.270] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:13.370] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:13.370] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:13.370] peer is currently unreachable            peer id=4
+INFO [08-28|20:30:13.370] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:13.470] peer is currently unreachable            peer id=4
+INFO [08-28|20:30:13.470] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:13.470] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:13.470] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:13.574] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:13.574] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:13.574] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:13.574] peer is currently unreachable            peer id=4
+INFO [08-28|20:30:13.670] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:13.670] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:13.670] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:13.670] peer is currently unreachable            peer id=4
+2019-08-28 20:30:13.697587 W | rafthttp: health check for peer 3 could not connect: dial tcp 127.0.0.1:60002: connect: connection refused
+2019-08-28 20:30:13.705520 W | rafthttp: health check for peer 1 could not connect: dial tcp 127.0.0.1:60000: connect: connection refused
+2019-08-28 20:30:13.711947 W | rafthttp: health check for peer 2 could not connect: dial tcp 127.0.0.1:60001: connect: connection refused
+INFO [08-28|20:30:13.771] peer is currently unreachable            peer id=4
+INFO [08-28|20:30:13.771] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:13.771] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:13.772] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:13.871] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:13.871] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:13.871] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:13.871] peer is currently unreachable            peer id=4
+INFO [08-28|20:30:13.974] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:13.974] peer is currently unreachable            peer id=4
+INFO [08-28|20:30:13.974] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:13.974] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:14.071] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:14.071] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:14.071] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:14.072] peer is currently unreachable            peer id=4
+INFO [08-28|20:30:14.175] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:14.175] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:14.175] peer is currently unreachable            peer id=4
+INFO [08-28|20:30:14.175] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:14.271] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:14.271] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:14.272] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:14.272] peer is currently unreachable            peer id=4
+INFO [08-28|20:30:14.372] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:14.372] peer is currently unreachable            peer id=4
+INFO [08-28|20:30:14.372] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:14.372] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:14.470] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:14.470] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:14.470] peer is currently unreachable            peer id=4
+INFO [08-28|20:30:14.470] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:14.570] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:14.570] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:14.570] peer is currently unreachable            peer id=4
+INFO [08-28|20:30:14.570] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:14.670] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:14.670] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:14.670] peer is currently unreachable            peer id=4
+INFO [08-28|20:30:14.670] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:14.772] peer is currently unreachable            peer id=4
+INFO [08-28|20:30:14.772] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:14.772] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:14.772] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:14.873] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:14.873] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:14.873] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:14.873] peer is currently unreachable            peer id=4
+INFO [08-28|20:30:14.974] peer is currently unreachable            peer id=4
+INFO [08-28|20:30:14.974] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:14.974] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:14.974] peer is currently unreachable            peer id=1
+2019-08-28 20:30:15.033356 W | rafthttp: lost the TCP streaming connection with peer 4 (stream MsgApp v2 writer)
+INFO [08-28|20:30:15.070] peer is currently unreachable            peer id=2
+INFO [08-28|20:30:15.070] peer is currently unreachable            peer id=4
+INFO [08-28|20:30:15.070] peer is currently unreachable            peer id=3
+INFO [08-28|20:30:15.070] peer is currently unreachable            peer id=1
+INFO [08-28|20:30:15.122] Got interrupt, shutting down... 
+INFO [08-28|20:30:15.122] HTTP endpoint closed                     url=http://0.0.0.0:32004
+DEBUG[08-28|20:30:15.122] RPC Server shutdown initiatied 
+INFO [08-28|20:30:15.124] IPC endpoint closed                      endpoint=/Users/ashwin/Documents/Projects/polichain/network/5node/geth.ipc
+DEBUG[08-28|20:30:15.124] RPC Server shutdown initiatied 
+INFO [08-28|20:30:15.124] Blockchain manager stopped 
+INFO [08-28|20:30:15.124] stopping raft protocol handler... 
+2019-08-28 20:30:15.124822 I | rafthttp: stopping peer 1...
+2019-08-28 20:30:15.124853 I | rafthttp: stopped streaming with peer 1 (writer)
+2019-08-28 20:30:15.124876 I | rafthttp: stopped streaming with peer 1 (writer)
+2019-08-28 20:30:15.124917 I | rafthttp: stopped HTTP pipelining with peer 1
+TRACE[08-28|20:30:15.124] Removing static node                     node="enode://5f8412d6d5a089b8de14569f45977dc01cefe62fbe5ba6252b31721f4c6b0a94409b21b27934a876fefb9ac3ca8cc32267ec403c71517a237bd8a649b25216ce@127.0.0.1:31000?discport=0&raftport=60000"
+2019-08-28 20:30:15.124962 I | rafthttp: stopped streaming with peer 1 (stream MsgApp v2 reader)
+2019-08-28 20:30:15.125020 I | rafthttp: stopped streaming with peer 1 (stream Message reader)
+2019-08-28 20:30:15.125042 I | rafthttp: stopped peer 1
+2019-08-28 20:30:15.125067 I | rafthttp: removed peer 1
+2019-08-28 20:30:15.125093 I | rafthttp: stopping peer 2...
+2019-08-28 20:30:15.125137 I | rafthttp: stopped streaming with peer 2 (writer)
+2019-08-28 20:30:15.125163 I | rafthttp: stopped streaming with peer 2 (writer)
+2019-08-28 20:30:15.125203 I | rafthttp: stopped HTTP pipelining with peer 2
+2019-08-28 20:30:15.125229 I | rafthttp: stopped streaming with peer 2 (stream MsgApp v2 reader)
+2019-08-28 20:30:15.125253 I | rafthttp: stopped streaming with peer 2 (stream Message reader)
+TRACE[08-28|20:30:15.125] Removing static node                     node="enode://3f689cdce9a7245f6b94c01070a31c658395890658bffb3ae7ea3a4b399aa9e03cc46c5543424a40302b7efccc666750d4d9ac07887452f45aec4cd2f5a71c90@127.0.0.1:31001?discport=0&raftport=60001"
+2019-08-28 20:30:15.125275 I | rafthttp: stopped peer 2
+2019-08-28 20:30:15.125370 I | rafthttp: removed peer 2
+2019-08-28 20:30:15.125388 I | rafthttp: stopping peer 3...
+2019-08-28 20:30:15.125407 I | rafthttp: stopped streaming with peer 3 (writer)
+2019-08-28 20:30:15.125426 I | rafthttp: stopped streaming with peer 3 (writer)
+2019-08-28 20:30:15.125457 I | rafthttp: stopped HTTP pipelining with peer 3
+2019-08-28 20:30:15.125477 I | rafthttp: stopped streaming with peer 3 (stream MsgApp v2 reader)
+2019-08-28 20:30:15.125495 I | rafthttp: stopped streaming with peer 3 (stream Message reader)
+2019-08-28 20:30:15.125512 I | rafthttp: stopped peer 3
+2019-08-28 20:30:15.125530 I | rafthttp: removed peer 3
+TRACE[08-28|20:30:15.125] Removing static node                     node="enode://0317b83566b3aa583ef1f21b12ea9973f356e777167e43e22f4c0227c7c4d4e2cbf4b8f39bde0411e2ed5359571d7bb971146a69a9ce1a29d1068e15a9b29c9a@127.0.0.1:31002?discport=0&raftport=60002"
+TRACE[08-28|20:30:15.125] Removing static node                     node="enode://bcb1a290d8a6597e428aa4014f971e340f99423fe36c34a71f739d6009e7fd9ab9342ce8b58dc8f2b886c54c939cbb59177151fb0de33016e571b6ab5f717b86@127.0.0.1:31003?discport=0&raftport=60003"
+2019-08-28 20:30:15.125713 I | rafthttp: stopping peer 4...
+2019-08-28 20:30:15.125736 I | rafthttp: stopped streaming with peer 4 (writer)
+2019-08-28 20:30:15.125755 I | rafthttp: stopped streaming with peer 4 (writer)
+2019-08-28 20:30:15.125791 I | rafthttp: stopped HTTP pipelining with peer 4
+2019-08-28 20:30:15.125813 I | rafthttp: stopped streaming with peer 4 (stream MsgApp v2 reader)
+2019-08-28 20:30:15.125841 I | rafthttp: stopped streaming with peer 4 (stream Message reader)
+2019-08-28 20:30:15.125865 I | rafthttp: stopped peer 4
+2019-08-28 20:30:15.125893 I | rafthttp: removed peer 4
+INFO [08-28|20:30:15.126] raft protocol handler stopped 
+INFO [08-28|20:30:15.127] Database closed                          database=/Users/ashwin/Documents/Projects/polichain/network/5node/geth/chaindata
+INFO [08-28|20:30:15.127] Raft stopped 
+INFO [08-28|20:30:15.127] Stopping Ethereum protocol 
+INFO [08-28|20:30:15.127] Ethereum protocol stopped 
+INFO [08-28|20:30:15.127] Transaction pool stopped 
+ERROR[08-28|20:30:15.127] Failed to close database                 database=/Users/ashwin/Documents/Projects/polichain/network/5node/geth/chaindata err="leveldb: closed"
+DEBUG[08-28|20:30:15.127] Read error                               err="accept tcp [::]:31004: use of closed network connection"
+DEBUG[08-28|20:30:15.127] Deleting port mapping                    proto=tcp extport=31004 intport=31004 interface="UPNP IGDv1-IP1"
+TRACE[08-28|20:30:15.128] P2P networking is spinning down 
