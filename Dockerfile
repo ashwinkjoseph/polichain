@@ -8,4 +8,8 @@ RUN mkdir /app/projects
 COPY . /app/projects
 RUN chmod +x /app/projects/build.sh && /app/projects/build.sh
 
+ENV PATH /app/quorum/build/bin:$PATH
+
+CMD ["/app/projects/run.sh"]
+
 EXPOSE 80

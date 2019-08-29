@@ -33,10 +33,4 @@ ls /app/projects
 echo 'ls /app/projects/network'
 ls /app/projects/network
 
-source /app/projects/network/1startnode.sh
-source /app/projects/network/2startnode.sh
-source /app/projects/network/3startnode.sh
-source /app/projects/network/4startnode.sh
-source /app/projects/network/5startnode.sh
-
-ps -ef | grep -i geth
+chmod +x /app/projects/run.sh
