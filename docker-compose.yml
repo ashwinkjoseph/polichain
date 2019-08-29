@@ -1,0 +1,90 @@
+version: "3.7"
+services:
+  node1:
+    build:
+      context: .
+      dockerfile: 1.Dockerfile
+    volumes:
+      - type: volume
+        source: .
+        target: 
+        volume:
+          nocopy: true
+      - type: bind
+        source: ./static
+        target: /opt/app/static
+  node2:
+    build:
+      context: .
+      dockerfile: 2.Dockerfile
+    volumes:
+      - type: volume
+        source: .
+        target: 
+        volume:
+          nocopy: true
+      - type: bind
+        source: ./static
+        target: /opt/app/static
+  node3:
+    build:
+      context: .
+      dockerfile: 3.Dockerfile
+    volumes:
+      - type: volume
+        source: .
+        target: 
+        volume:
+          nocopy: true
+      - type: bind
+        source: ./static
+        target: /opt/app/static
+  node4:
+    build:
+      context: .
+      dockerfile: 4.Dockerfile
+    volumes:
+      - type: volume
+        source: .
+        target: 
+        volume:
+          nocopy: true
+      - type: bind
+        source: ./static
+        target: /opt/app/static
+  node5:
+    build:
+      context: .
+      dockerfile: 5.Dockerfile
+    volumes:
+      - type: volume
+        source: .
+        target: 
+        volume:
+          nocopy: true
+      - type: bind
+        source: ./static
+        target: /opt/app/static
+  node1client:
+    build:
+      context: .
+      dockerfile: 1.client.Dockerfile
+  node2client:
+    build:
+      context: .
+      dockerfile: 2.client.Dockerfile
+  node3client:
+    build:
+      context: .
+      dockerfile: 3.client.Dockerfile
+  node4client:
+    build:
+      context: .
+      dockerfile: 4.client.Dockerfile
+  node5client:
+    build:
+      context: .
+      dockerfile: 5.client.Dockerfile
+volumes:
+  mydata:
+  dbdata:

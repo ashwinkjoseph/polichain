@@ -33,4 +33,8 @@ ls /app/projects
 echo 'ls /app/projects/network'
 ls /app/projects/network
 
-chmod +x /app/projects/run.sh
+chmod +x /app/projects/run1.sh
+chmod +x /app/projects/run2.sh
+chmod +x /app/projects/run3.sh
+chmod +x /app/projects/run4.sh
+chmod +x /app/projects/run5.sh
