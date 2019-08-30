@@ -12,4 +12,4 @@ ENV PATH /app/quorum/build/bin:$PATH
 
 CMD ["/app/projects/run4.sh"]
 
-EXPOSE 80
+EXPOSE 32003 60003 31003 8545 8546 30303 30303/udp

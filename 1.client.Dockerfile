@@ -12,4 +12,4 @@ ENV PATH /app/quorum/build/bin:$PATH
 
 CMD ["geth", "attach", "/app/projects/network/1node/geth.ipc"]
 
-EXPOSE 80
+EXPOSE 32000 60000 31000

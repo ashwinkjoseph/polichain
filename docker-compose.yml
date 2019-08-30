@@ -5,86 +5,90 @@ services:
       context: .
       dockerfile: 1.Dockerfile
     volumes:
-      - type: volume
-        source: .
-        target: 
-        volume:
-          nocopy: true
-      - type: bind
-        source: ./static
-        target: /opt/app/static
+      - data:/app/projects
   node2:
     build:
       context: .
       dockerfile: 2.Dockerfile
+    depends_on:
+      - node1
     volumes:
-      - type: volume
-        source: .
-        target: 
-        volume:
-          nocopy: true
-      - type: bind
-        source: ./static
-        target: /opt/app/static
+      - data:/app/projects
   node3:
     build:
       context: .
       dockerfile: 3.Dockerfile
+    depends_on:
+      - node1
+      - node2
     volumes:
-      - type: volume
-        source: .
-        target: 
-        volume:
-          nocopy: true
-      - type: bind
-        source: ./static
-        target: /opt/app/static
+      - data:/app/projects
   node4:
     build:
       context: .
       dockerfile: 4.Dockerfile
+    depends_on:
+      - node1
+      - node2
+      - node3
     volumes:
-      - type: volume
-        source: .
-        target: 
-        volume:
-          nocopy: true
-      - type: bind
-        source: ./static
-        target: /opt/app/static
+      - data:/app/projects
   node5:
     build:
       context: .
       dockerfile: 5.Dockerfile
+    depends_on:
+      - node1
+      - node2
+      - node3
+      - node4
     volumes:
-      - type: volume
-        source: .
-        target: 
-        volume:
-          nocopy: true
-      - type: bind
-        source: ./static
-        target: /opt/app/static
+      - data:/app/projects
   node1client:
     build:
       context: .
       dockerfile: 1.client.Dockerfile
+    depends_on:
+      - node1
+    volumes:
+      - data:/app/projects
   node2client:
     build:
       context: .
       dockerfile: 2.client.Dockerfile
+    depends_on:
+      - node2
+    volumes:
+      - data:/app/projects
   node3client:
     build:
       context: .
       dockerfile: 3.client.Dockerfile
+    depends_on:
+      - node3
+    volumes:
+      - data:/app/projects
   node4client:
     build:
       context: .
       dockerfile: 4.client.Dockerfile
+    depends_on:
+      - node4
+    volumes:
+      - data:/app/projects
   node5client:
     build:
       context: .
       dockerfile: 5.client.Dockerfile
+    depends_on:
+      - node5
+    volumes:
+      - data:/app/projects
 volumes:
-  mydata:
-  dbdata:
+  data:
+    - type: volume
+      source: .
+      target: /app/projects
+    - type: bind
+      source: ./static
+      target: /opt/app/static
