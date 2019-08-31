@@ -29,6 +29,7 @@ contract FactCreator{
 
     function checkRightToVote(address _sender) public pure returns (bool) {
         //TO BE REPLACED BY CONDITIONAL CHECKS FOR EVERY LEADER
+        bool cond1 = _sender == 0x25643a04d9AFe91Ca718E3E6ae78251e6A34eCaD;
         bool cond1 = _sender == 0x1707B4AC6D0d982A9f70d75028EB472863bA3d01;
         bool cond2 = _sender == 0xC3e84a98df9416C6B9C79412232c94A5d3129a64;
         bool cond3 = _sender == 0x05168131Bc32D1422bCD8493e793C1a59EeFf0B4;

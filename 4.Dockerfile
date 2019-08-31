@@ -12,4 +12,4 @@ ENV PATH /app/quorum/build/bin:$PATH
 
 CMD ["/app/projects/run4.sh"]
 
-EXPOSE 32003 60003 31003 8545 8546 30303 30303/udp
+EXPOSE 32003/tcp 60003/tcp 31003/tcp 8545/tcp 8546/tcp 30303/tcp 32003/udp 60003/udp 31003/udp 8545/udp 8546/udp 30303/udp

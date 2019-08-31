@@ -4,91 +4,108 @@ services:
     build:
       context: .
       dockerfile: 1.Dockerfile
-    volumes:
-      - data:/app/projects
+    network_mode: host
+    ports:
+      - 32000:32000/tcp 
+      - 60000:60000/tcp 
+      - 31000:31000/tcp 
+      - 32000:32000/udp 
+      - 60000:60000/udp 
+      - 31000:31000/udp
   node2:
     build:
       context: .
       dockerfile: 2.Dockerfile
+    network_mode: host
+    ports:
+      - 32001:32001/tcp
+      - 60001:60001/tcp
+      - 31001:31001/tcp
+      - 32001:32001/udp
+      - 60001:60001/udp
+      - 31001:31001/udp
     depends_on:
       - node1
-    volumes:
-      - data:/app/projects
   node3:
     build:
       context: .
       dockerfile: 3.Dockerfile
+    network_mode: host
+    ports:
+      - 32002:32002/tcp
+      - 60002:60002/tcp
+      - 31002:31002/tcp
+      - 32002:32002/udp
+      - 60002:60002/udp
+      - 31002:31002/udp
     depends_on:
       - node1
       - node2
-    volumes:
-      - data:/app/projects
   node4:
     build:
       context: .
       dockerfile: 4.Dockerfile
+    network_mode: host
+    ports:
+      - 32003:32003/tcp
+      - 60003:60003/tcp
+      - 31003:31003/tcp
+      - 32003:32003/udp
+      - 60003:60003/udp
+      - 31003:31003/udp
     depends_on:
       - node1
       - node2
       - node3
-    volumes:
-      - data:/app/projects
   node5:
     build:
       context: .
       dockerfile: 5.Dockerfile
+    network_mode: host
+    ports:
+      - 32004:32004/tcp
+      - 60004:60004/tcp
+      - 31004:31004/tcp
+      - 32004:32004/udp
+      - 60004:60004/udp
+      - 31004:31004/udp
     depends_on:
       - node1
       - node2
       - node3
       - node4
-    volumes:
-      - data:/app/projects
-  node1client:
+  voter1client:
     build:
       context: .
-      dockerfile: 1.client.Dockerfile
+      dockerfile: voter1.console.Dockerfile
+    network_mode: host
     depends_on:
       - node1
-    volumes:
-      - data:/app/projects
-  node2client:
+  voter2client:
     build:
       context: .
-      dockerfile: 2.client.Dockerfile
+      dockerfile: voter2.console.Dockerfile
+    network_mode: host
     depends_on:
       - node2
-    volumes:
-      - data:/app/projects
-  node3client:
+  voter3client:
     build:
       context: .
-      dockerfile: 3.client.Dockerfile
+      dockerfile: voter3.console.Dockerfile
+    network_mode: host
     depends_on:
       - node3
-    volumes:
-      - data:/app/projects
-  node4client:
+  voter4client:
     build:
       context: .
-      dockerfile: 4.client.Dockerfile
+      dockerfile: voter4.console.Dockerfile
+    network_mode: host
     depends_on:
       - node4
-    volumes:
-      - data:/app/projects
-  node5client:
+  publicnode:
     build:
       context: .
-      dockerfile: 5.client.Dockerfile
+      dockerfile: public.console.Dockerfile
+    network_mode: host
     depends_on:
       - node5
-    volumes:
-      - data:/app/projects
-volumes:
-  data:
-    - type: volume
-      source: .
-      target: /app/projects
-    - type: bind
-      source: ./static
-      target: /opt/app/static
